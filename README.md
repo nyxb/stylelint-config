@@ -82,7 +82,7 @@ Sure, you can override the rules in your `.eslintrc` file.
 
 ```json
 {
-  "extends": "@nyxb",
+  "extends": "@nyxb/stylelint-config",
   "rules": {
     // your rules...
   }
