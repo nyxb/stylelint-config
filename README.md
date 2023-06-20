@@ -110,11 +110,11 @@ Or you can always fork this repo and make your own.
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/ext-name?style=flat&colorA=18181B&colorB=14F195
-[npm-version-href]: https://npmjs.com/package/ext-name
-[npm-downloads-src]: https://img.shields.io/npm/dm/ext-name?style=flat&colorA=18181B&colorB=14F195
-[npm-downloads-href]: https://npmjs.com/package/ext-name
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/ext-name?style=flat&colorA=18181B&colorB=14F195
-[bundle-href]: https://bundlephobia.com/result?p=ext-name
-[license-src]: https://img.shields.io/github/license/nyxb/ext-name.svg?style=flat&colorA=18181B&colorB=14F195
-[license-href]: https://github.com/nyxb/ext-name/blob/main/LICENSE
+[npm-version-src]: https://img.shields.io/npm/v/stylelint-config?style=flat&colorA=18181B&colorB=14F195
+[npm-version-href]: https://npmjs.com/package/stylelint-config
+[npm-downloads-src]: https://img.shields.io/npm/dm/stylelint-config?style=flat&colorA=18181B&colorB=14F195
+[npm-downloads-href]: https://npmjs.com/package/stylelint-config
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/stylelint-config?style=flat&colorA=18181B&colorB=14F195
+[bundle-href]: https://bundlephobia.com/result?p=stylelint-config
+[license-src]: https://img.shields.io/github/license/nyxb/stylelint-config.svg?style=flat&colorA=18181B&colorB=14F195
+[license-href]: https://github.com/nyxb/stylelint-config/blob/main/LICENSE
