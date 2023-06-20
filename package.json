@@ -1,5 +1,5 @@
 {
-  "name": "ext-name",
+  "name": "@nyxb/stylelint-config",
   "version": "0.0.0",
   "packageManager": "pnpm@8.6.3",
   "description": "",
@@ -8,27 +8,16 @@
   "homepage": "https://💻nyxb.ws",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nyxb/ext-name.git"
+    "url": "git+https://github.com/nyxb/stylelint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/nyxb/ext-name/issues"
+    "url": "https://github.com/nyxb/stylelint-config/issues"
   },
   "keywords": [],
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
-    }
-  },
-  "main": "index.cjs",
-  "module": "index.mjs",
-  "types": "index.d.ts",
-  "bin": {
-    "ext-name": "/dist/index.cjs"
-  },
+  "main": "index.js",
   "files": [
-    "dist"
+    "index.js",
+    "stylelint.config.js"
   ],
   "scripts": {
     "prepublishOnly": "nyxr build",
@@ -40,6 +29,10 @@
     "typecheck": "tsc --noEmit",
     "release": "nyxlx changelogen@latest --release && pnpm publish"
   },
+  "dependencies": {
+    "postcss-styled-syntax": "^0.4.0",
+    "stylelint-config-standard": "^33.0.0"
+  },
   "devDependencies": {
     "@nyxb/eslint-config": "^0.0.53",
     "@nyxb/nyxi": "^0.0.30",
@@ -49,6 +42,7 @@
     "dynot": "^0.1.8",
     "eslint": "^8.43.0",
     "pnpm": "^8.6.3",
+    "stylelint": "^15.8.0",
     "typescript": "^5.1.3",
     "vitest": "^0.32.2"
   }
