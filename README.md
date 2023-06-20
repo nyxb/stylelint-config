@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/nyxb/stylelint-config/blob/main/.github/assets/cover-github.png?raw=true" width="285" height="285" alt="stylelint-config logo">
+  <img src="https://github.com/nyxb/stylelint-config/blob/main/.github/assets/cover-github.png?raw=true" alt="stylelint-config logo">
   <br>
 
 [![npm version][npm-version-src]][npm-version-href] 
