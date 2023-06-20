@@ -20,13 +20,9 @@
     "stylelint.config.js"
   ],
   "scripts": {
-    "prepublishOnly": "nyxr build",
-    "build": "buildkarium",
-    "stub": "buildkarium --stub",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "test": "run vitest --coverage",
-    "typecheck": "tsc --noEmit",
     "release": "nyxlx changelogen@latest --release && pnpm publish"
   },
   "dependencies": {
